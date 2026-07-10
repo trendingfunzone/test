@@ -1,0 +1,10 @@
+Oracle 23c - 22:21:49 Primary  r/w free up: 0d,6h,  1 ins
+ID  CPU %CPU LOAD  AAS ASC ASI ASW ISW   REDO  TEMP IORT  MBPS  IOPS   R/S   W/S    LIO GCPS %FRE    PGA NETV UTPS UCPS SQLT %DBC %DBW
+1     2    0    2    2   2   0   1   1      0     0    0     0     0     0     0      0    0    0     20    0    0    0    0    0    0
+
+EVENT (RT)                                                   SESSIONS   WAIT   TIME    AVG   %DBT WAIT_CLASS
+
+ID   SID     SPID USERNAME       PROGRAM          SRV SERVICE  STS STE SQLID/BLOCKER E/T  %CPU %LIO   PGA WAIT_CLASS     EVENT/OBJECT NAME              W/T
+1      209     2270 SYS            oracle@vbox (J00 DED SYS$USER ACT WAI 0qsph1wwqkgwg    1m    0    0     0 Idle           PL/SQL lock timer                  0s
+1      205     5515 SYSTEM         JDBC Thin Client DED freepdb1 ACT WAI dm8wr7f29d64m    0s    0    0     0 Idle           SQL*Net message from client        0s
+1      213     3972 HR             sqlplus@vbox (TN DED freepdb1 INA WAI ,                2m    0    0     0 Idle           SQL*Net message from client        2m
